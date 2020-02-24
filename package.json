@@ -9,6 +9,7 @@
   },
   "scripts": {
     "json-server": "node server/index.js",
+    "seed": "node generateData.js",
     "start": "npm-watch json-server"
   },
   "author": "",
