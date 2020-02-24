@@ -6,7 +6,8 @@ const router = jsonServer.router({
   countries: require('./db/countries')(),
   optionsYesNo: require('./db/optionsYesNo')(),
   optionsSelect: require('./db/optionsSelect')(),
-  example: require('./db/example.json')
+  example: require('./db/example.json'),
+  largeDataset: require('./db/largeDataset.json')
 });
 
 const middlewares = [
