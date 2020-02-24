@@ -9,7 +9,7 @@
   },
   "scripts": {
     "json-server": "node server/index.js",
-    "mock": "npm-watch json-server"
+    "start": "npm-watch json-server"
   },
   "author": "",
   "license": "ISC",
